@@ -16,7 +16,6 @@ Welcome to the INDE 577 repository on machine learning algorithms! This reposito
 
 - **Unsupervised Learning**: This section contains examples of algorithms used in unsupervised learning, where the model learns patterns from unlabelled data. Unsupervised learning includes:
   - **K-Means Clustering**: A method that partitions data into K clusters based on similarity.
-  - **Principal Component Analysis (PCA)**: A dimensionality reduction technique used to identify important features in high-dimensional data.
   - **DBSCAN**: A density-based clustering algorithm that can find clusters of arbitrary shapes.
 
 ## Where to Get More Information
