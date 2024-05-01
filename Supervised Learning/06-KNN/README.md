@@ -50,6 +50,4 @@ In the provided example, we use KNN to classify iris flowers based on four featu
 
 The detailed code example demonstrates the implementation of a K-Nearest Neighbors classifier with visualization techniques to better understand its operation.
 
----
 
-For more information on KNN and other machine learning algorithms, consider exploring additional resources, like online tutorials, books, and research papers. This example provides a foundational understanding, but there's much more to learn in the world of KNN and machine learning.
