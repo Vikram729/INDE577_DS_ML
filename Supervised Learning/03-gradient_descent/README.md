@@ -11,12 +11,7 @@ Imagine you're hiking in a mountainous region, and you want to find the fastest 
 Gradient descent works by initializing at a starting point, then iteratively taking steps in the direction of steepest descent, guided by the gradient. The size of these steps is known as the learning rate. Too large a learning rate might cause you to overshoot and miss the local minimum, while too small a rate could mean it takes too long to reach the bottom. 
 
 Mathematically, gradient descent can be expressed as:
-\[ b = a - \eta \nabla f(a) \]
-where:
-- \( b \) is the next position,
-- \( a \) is the current position,
-- \( \eta \) is the learning rate,
-- \( \nabla f(a) \) is the gradient at position \( a \).
+![Gradient Algo](https://miro.medium.com/v2/resize:fit:1400/1*OHLLc-i6QOCT3cQddwCL2A.jpeg)
 
 ### Types of Gradient Descent
 There are two main types of gradient descent:
@@ -37,12 +32,8 @@ Gradient descent is widely used in machine learning to train models such as line
 
 ### Common Cost Function: Mean Squared Error (MSE)
 In linear regression, one common cost function used is the Mean Squared Error (MSE). It measures the average squared difference between predicted and actual values. Mathematically, it is represented as:
-\[ \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 \]
-where:
-- \( y_i \) is the actual value,
-- \( \hat{y}_i \) is the predicted value,
-- \( n \) is the total number of observations.
 
+![MSE](https://miro.medium.com/v2/resize:fit:1400/1*WDGwqWArsoIcj1x8CY_fNw.png)
 ### Conclusion
 Gradient descent is a powerful tool in machine learning and optimization, guiding us toward minimizing a cost function. Understanding the different types of gradient descent and their applications is crucial for effectively using machine learning algorithms.
 
